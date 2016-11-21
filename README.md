@@ -1,0 +1,2 @@
+## demo-groovy-db   
+A collection of simple demonstrations of connecting to databases using the Groovy language based on the examples from the book, [Programming Groovy 2](https://pragprog.com/book/vslg2/programming-groovy-2) by Venkat Subramaniam.

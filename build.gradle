@@ -1,0 +1,19 @@
+group = "demo-groovy"
+description = "Working with databases using the Groovy programming language."
+apply plugin: 'groovy'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    /**
+     * Per Gradle docs, if Groovy is used for the production code, the Groovy dependency
+     * should be added to the compile configuration. If Groovy is only for test code, add it
+     * to the testCompile configuration. To use the Groovy library that ships with Gradle,
+     * declare a localGroovy() dependency.
+     */
+ 	compile 'org.codehaus.groovy:groovy-all:2.4.7'
+    compile 'mysql:mysql-connector-java:5.1.35'
+}

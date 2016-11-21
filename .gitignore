@@ -1,0 +1,30 @@
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+*.iml
+.idea
+.gradle
+app/build
+app/libs
+bower_components
+build
+dist
+drafts
+desktop.ini
+gradle
+gradlew
+gradlew.bat
+gradle.properties
+lib
+libs
+local.properties
+manifest.mf
+nbproject
+node_modules
+old
+out
+platforms
+plugins
+staging
+wrapper
+www/lib
+src/main/java/cla/jer/database/Cred.groovy
